@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55D8880925ADD0650055A309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8880825ADD0650055A309 /* AppDelegate.swift */; };
+		55D8880B25ADD0650055A309 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8880A25ADD0650055A309 /* SceneDelegate.swift */; };
+		55D8880D25ADD0650055A309 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8880C25ADD0650055A309 /* ViewController.swift */; };
+		55D8881025ADD0650055A309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D8880E25ADD0650055A309 /* Main.storyboard */; };
+		55D8881225ADD0670055A309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D8881125ADD0670055A309 /* Assets.xcassets */; };
+		55D8881525ADD0670055A309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D8881325ADD0670055A309 /* LaunchScreen.storyboard */; };
+		55D8882025ADD0670055A309 /* iPadxTG_DoubleTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8881F25ADD0670055A309 /* iPadxTG_DoubleTapTests.swift */; };
+		55D8882B25ADD0670055A309 /* iPadxTG_DoubleTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8882A25ADD0670055A309 /* iPadxTG_DoubleTapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55D8881C25ADD0670055A309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D887FD25ADD0650055A309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D8880425ADD0650055A309;
+			remoteInfo = "iPadxTG-DoubleTap";
+		};
+		55D8882725ADD0670055A309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D887FD25ADD0650055A309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D8880425ADD0650055A309;
+			remoteInfo = "iPadxTG-DoubleTap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55D8880525ADD0650055A309 /* iPadxTG-DoubleTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPadxTG-DoubleTap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D8880825ADD0650055A309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55D8880A25ADD0650055A309 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55D8880C25ADD0650055A309 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55D8880F25ADD0650055A309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55D8881125ADD0670055A309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55D8881425ADD0670055A309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55D8881625ADD0670055A309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D8881B25ADD0670055A309 /* iPadxTG-DoubleTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPadxTG-DoubleTapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D8881F25ADD0670055A309 /* iPadxTG_DoubleTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadxTG_DoubleTapTests.swift; sourceTree = "<group>"; };
+		55D8882125ADD0670055A309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D8882625ADD0670055A309 /* iPadxTG-DoubleTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPadxTG-DoubleTapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D8882A25ADD0670055A309 /* iPadxTG_DoubleTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadxTG_DoubleTapUITests.swift; sourceTree = "<group>"; };
+		55D8882C25ADD0670055A309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D8880225ADD0650055A309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D8881825ADD0670055A309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D8882325ADD0670055A309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55D887FC25ADD0650055A309 = {
+			isa = PBXGroup;
+			children = (
+				55D8880725ADD0650055A309 /* iPadxTG-DoubleTap */,
+				55D8881E25ADD0670055A309 /* iPadxTG-DoubleTapTests */,
+				55D8882925ADD0670055A309 /* iPadxTG-DoubleTapUITests */,
+				55D8880625ADD0650055A309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55D8880625ADD0650055A309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D8880525ADD0650055A309 /* iPadxTG-DoubleTap.app */,
+				55D8881B25ADD0670055A309 /* iPadxTG-DoubleTapTests.xctest */,
+				55D8882625ADD0670055A309 /* iPadxTG-DoubleTapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D8880725ADD0650055A309 /* iPadxTG-DoubleTap */ = {
+			isa = PBXGroup;
+			children = (
+				55D8880825ADD0650055A309 /* AppDelegate.swift */,
+				55D8880A25ADD0650055A309 /* SceneDelegate.swift */,
+				55D8880C25ADD0650055A309 /* ViewController.swift */,
+				55D8880E25ADD0650055A309 /* Main.storyboard */,
+				55D8881125ADD0670055A309 /* Assets.xcassets */,
+				55D8881325ADD0670055A309 /* LaunchScreen.storyboard */,
+				55D8881625ADD0670055A309 /* Info.plist */,
+			);
+			path = "iPadxTG-DoubleTap";
+			sourceTree = "<group>";
+		};
+		55D8881E25ADD0670055A309 /* iPadxTG-DoubleTapTests */ = {
+			isa = PBXGroup;
+			children = (
+				55D8881F25ADD0670055A309 /* iPadxTG_DoubleTapTests.swift */,
+				55D8882125ADD0670055A309 /* Info.plist */,
+			);
+			path = "iPadxTG-DoubleTapTests";
+			sourceTree = "<group>";
+		};
+		55D8882925ADD0670055A309 /* iPadxTG-DoubleTapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55D8882A25ADD0670055A309 /* iPadxTG_DoubleTapUITests.swift */,
+				55D8882C25ADD0670055A309 /* Info.plist */,
+			);
+			path = "iPadxTG-DoubleTapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D8880425ADD0650055A309 /* iPadxTG-DoubleTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D8882F25ADD0670055A309 /* Build configuration list for PBXNativeTarget "iPadxTG-DoubleTap" */;
+			buildPhases = (
+				55D8880125ADD0650055A309 /* Sources */,
+				55D8880225ADD0650055A309 /* Frameworks */,
+				55D8880325ADD0650055A309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPadxTG-DoubleTap";
+			productName = "iPadxTG-DoubleTap";
+			productReference = 55D8880525ADD0650055A309 /* iPadxTG-DoubleTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55D8881A25ADD0670055A309 /* iPadxTG-DoubleTapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D8883225ADD0670055A309 /* Build configuration list for PBXNativeTarget "iPadxTG-DoubleTapTests" */;
+			buildPhases = (
+				55D8881725ADD0670055A309 /* Sources */,
+				55D8881825ADD0670055A309 /* Frameworks */,
+				55D8881925ADD0670055A309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55D8881D25ADD0670055A309 /* PBXTargetDependency */,
+			);
+			name = "iPadxTG-DoubleTapTests";
+			productName = "iPadxTG-DoubleTapTests";
+			productReference = 55D8881B25ADD0670055A309 /* iPadxTG-DoubleTapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55D8882525ADD0670055A309 /* iPadxTG-DoubleTapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D8883525ADD0670055A309 /* Build configuration list for PBXNativeTarget "iPadxTG-DoubleTapUITests" */;
+			buildPhases = (
+				55D8882225ADD0670055A309 /* Sources */,
+				55D8882325ADD0670055A309 /* Frameworks */,
+				55D8882425ADD0670055A309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55D8882825ADD0670055A309 /* PBXTargetDependency */,
+			);
+			name = "iPadxTG-DoubleTapUITests";
+			productName = "iPadxTG-DoubleTapUITests";
+			productReference = 55D8882625ADD0670055A309 /* iPadxTG-DoubleTapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D887FD25ADD0650055A309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					55D8880425ADD0650055A309 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					55D8881A25ADD0670055A309 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 55D8880425ADD0650055A309;
+					};
+					55D8882525ADD0670055A309 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 55D8880425ADD0650055A309;
+					};
+				};
+			};
+			buildConfigurationList = 55D8880025ADD0650055A309 /* Build configuration list for PBXProject "iPadxTG-DoubleTap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55D887FC25ADD0650055A309;
+			productRefGroup = 55D8880625ADD0650055A309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D8880425ADD0650055A309 /* iPadxTG-DoubleTap */,
+				55D8881A25ADD0670055A309 /* iPadxTG-DoubleTapTests */,
+				55D8882525ADD0670055A309 /* iPadxTG-DoubleTapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D8880325ADD0650055A309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D8881525ADD0670055A309 /* LaunchScreen.storyboard in Resources */,
+				55D8881225ADD0670055A309 /* Assets.xcassets in Resources */,
+				55D8881025ADD0650055A309 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D8881925ADD0670055A309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D8882425ADD0670055A309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D8880125ADD0650055A309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D8880D25ADD0650055A309 /* ViewController.swift in Sources */,
+				55D8880925ADD0650055A309 /* AppDelegate.swift in Sources */,
+				55D8880B25ADD0650055A309 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D8881725ADD0670055A309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D8882025ADD0670055A309 /* iPadxTG_DoubleTapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D8882225ADD0670055A309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D8882B25ADD0670055A309 /* iPadxTG_DoubleTapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55D8881D25ADD0670055A309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55D8880425ADD0650055A309 /* iPadxTG-DoubleTap */;
+			targetProxy = 55D8881C25ADD0670055A309 /* PBXContainerItemProxy */;
+		};
+		55D8882825ADD0670055A309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55D8880425ADD0650055A309 /* iPadxTG-DoubleTap */;
+			targetProxy = 55D8882725ADD0670055A309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55D8880E25ADD0650055A309 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D8880F25ADD0650055A309 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55D8881325ADD0670055A309 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D8881425ADD0670055A309 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55D8882D25ADD0670055A309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55D8882E25ADD0670055A309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55D8883025ADD0670055A309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-DoubleTap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-DoubleTap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55D8883125ADD0670055A309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-DoubleTap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-DoubleTap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55D8883325ADD0670055A309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-DoubleTapTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-DoubleTapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPadxTG-DoubleTap.app/iPadxTG-DoubleTap";
+			};
+			name = Debug;
+		};
+		55D8883425ADD0670055A309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-DoubleTapTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-DoubleTapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPadxTG-DoubleTap.app/iPadxTG-DoubleTap";
+			};
+			name = Release;
+		};
+		55D8883625ADD0670055A309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-DoubleTapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-DoubleTapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iPadxTG-DoubleTap";
+			};
+			name = Debug;
+		};
+		55D8883725ADD0670055A309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-DoubleTapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-DoubleTapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iPadxTG-DoubleTap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D8880025ADD0650055A309 /* Build configuration list for PBXProject "iPadxTG-DoubleTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D8882D25ADD0670055A309 /* Debug */,
+				55D8882E25ADD0670055A309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D8882F25ADD0670055A309 /* Build configuration list for PBXNativeTarget "iPadxTG-DoubleTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D8883025ADD0670055A309 /* Debug */,
+				55D8883125ADD0670055A309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D8883225ADD0670055A309 /* Build configuration list for PBXNativeTarget "iPadxTG-DoubleTapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D8883325ADD0670055A309 /* Debug */,
+				55D8883425ADD0670055A309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D8883525ADD0670055A309 /* Build configuration list for PBXNativeTarget "iPadxTG-DoubleTapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D8883625ADD0670055A309 /* Debug */,
+				55D8883725ADD0670055A309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55D887FD25ADD0650055A309 /* Project object */;
+}
